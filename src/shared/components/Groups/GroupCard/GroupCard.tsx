@@ -20,9 +20,9 @@ export default function GroupCard({item, groupType}: Props) {
 	return (
 		<Card
 			isFooterBlurred
-			className="w-full h-[300px] col-span-12 sm:col-span-7 custom-card-width"
+			className="w-full h-[16rem] col-span-12 sm:col-span-7 custom-card-width"
 		>
-			<CardHeader className="absolute z-10 top-1 flex-col items-start backdrop-blur backdrop-saturate-150 bg-black/40">
+			<CardHeader className="absolute z-10 top-0 flex-col items-start backdrop-blur backdrop-saturate-150 bg-black/40">
 				<p className="text-tiny text-white/60 uppercase font-bold">
 					{item.instructor}
 				</p>

@@ -93,7 +93,7 @@ export default function Appbar() {
 			}}
 		>
 			{/* Web */}
-			<NavbarContent className="pr-12">
+			<NavbarContent>
 				<NavbarMenuToggle
 					aria-label={isMenuOpen ? "Close menu" : "Open menu"}
 					className="lg:hidden dark:text-gray-300"

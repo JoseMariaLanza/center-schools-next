@@ -66,13 +66,13 @@ export default function Home() {
 						voluptatum nostrum debitis. Et, labore facere.
 					</p>
 				</div>
-				<div className="fixed bottom-0 left-0 flex sm:h-16 sm:bg-zinc-800/90 text-white w-full md:min-w-72 items-end justify-center lg:bg-transparent lg:static lg:h-auto lg:w-auto lg:bg-none pr-8">
+				<div className="fixed bottom-0 left-0 flex sm:h-16 bg-zinc-800/90 z-50 text-white w-full md:min-w-72 items-end justify-center lg:bg-transparent lg:static lg:h-auto lg:w-auto lg:bg-none pr-8">
 					<Link
 						href="/gallery"
 						className="group rounded-lg border border-transparent px-5 py-4 lg:transition-colors lg:hover:border-gray-300 lghover:bg-gray-100 lghover:dark:border-neutral-700 lg:hover:dark:bg-neutral-800/30"
 						rel="noopener noreferrer"
 					>
-						<h2 className={`text-2xl font-semibold dark:text-white`}>
+						<h2 className="text-2xl font-semibold dark:text-white">
 							View gallery{" "}
 							<span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none text-sky-500">
 								-&gt;
@@ -85,7 +85,7 @@ export default function Home() {
 			<MainMap />
 
 			{/* <div className="max-w-[900px] gap-2 grid grid-cols-12 grid-rows-2 px-8"> */}
-			<div>
+			<div className="pb-20">
 				<h1 className="p-4 font-semibold text-2xl text-indigo-600 dark:text-white">
 					Our schools
 				</h1>
