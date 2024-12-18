@@ -40,7 +40,7 @@ const navigation = {
 				{
 					id: 1,
 					name: "Center Spartans",
-					href: "https://tailwindui.com/img/ecommerce-images/product-page-04-detail-product-shot-01.jpg",
+					href: "/school-list/1",
 					instructor: "Flaco gay",
 					address: "Address 1",
 					imageSrc:
@@ -52,7 +52,7 @@ const navigation = {
 				{
 					id: 2,
 					name: "Other school 2",
-					href: "#",
+					href: "/school-list/2",
 					instructor: "Jhon Doe",
 					address: "Address 2",
 					imageSrc:
